@@ -1,0 +1,28 @@
+1
+00:00:00,399 --> 00:00:09,970
+Yes, then we will talk about configurations, different configurations for our application that we are building.
+
+2
+00:00:12,293 --> 00:00:19,719
+The point is that we want to have our configuration settings outside the source code.
+
+3
+00:00:20,820 --> 00:00:31,589
+If we have things like database login, we have URLs to various external services and so on.
+
+4
+00:00:31,669 --> 00:00:35,692
+If it is inside the code, then it will become a problem.
+
+5
+00:00:35,712 --> 00:00:37,454
+Now I don't remember where I have these things.
+
+6
+00:00:39,635 --> 00:00:47,041
+then it will be a problem when we use hardcoded URLs to the program.
+
+7
+00:00:47,141 --> 00:00:53,526
+If they have to change the address or something, or we also have even more credibility
+

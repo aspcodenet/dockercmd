@@ -1,6 +1,10 @@
 START JavaConfigurationSpringSmall.mp4 - video
 
-STEG 1:
+STEG 0 SKAPA EN IMAGE OCH KALLA DEN extractspeaker
+docker build -t extractspeaker .
+
+
+STEG 1 :
 Ta min video och ta fram speaker.wav (ljud)
 
 docker run --rm --volume=$(PWD)/indata:/indata extractspeaker  JavaConfigurationSpringSmall.mp4 speaker.wav  
